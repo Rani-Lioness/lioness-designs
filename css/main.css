@@ -1,0 +1,151 @@
+body {
+  font-family: 'Bellefair', serif;
+  margin: auto;
+  width: 1200px;
+}
+
+header, #work {
+  height: 550px;
+}
+
+#about #skills {
+  height: 700px;
+}
+
+#contact {
+  height: 350px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  float: left;
+  width: 50%;
+}
+
+.third-width {
+  float: left;
+  width: 30%;
+}
+
+/* Header */
+
+.full-width header {
+  background-color: #d4c685;
+  padding: 40px;
+}
+
+h1 {
+  font-family: 'Macondo', 'cursive';
+  font-size: 55px;
+  text-decoration: overline;
+}
+
+header a {
+  font-family: 'Macondo', cursive;
+  font-size: 20px;
+  margin: 10px;
+  padding: 5 5 5 0px;
+  text-decoration: overline;
+  text-transform: uppercase;
+}
+
+header p {
+  font-size: 35px;
+  padding-top: 50px;
+}
+
+/* All h2 headings */
+
+h2 {
+  font-family: 'Macondo', 'cursive';
+  font-size: 40px;
+  padding: 20px;
+  text-decoration: overline;
+  width: 1200px;
+}
+
+/* About */
+
+#about {
+  background-color: #d9dbaa;
+  overflow: hidden;
+}
+
+#about .half-width p {
+  float: left;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+#about .half-width img {
+  float: right;
+  height: 60%;
+  margin-right: 100px;
+  margin-bottom: 160px;
+  width: 60%;
+}
+
+/* Skills */
+
+#skills .third-width {
+  background-color: #d4c685;
+  border: 2px dashed #283c2c;
+  height: 500px;
+  margin: 18px;
+  text-align: left;
+}
+
+#skills h2 {
+  background-color: #d4c685;
+  text-decoration: overline;
+  width: 1160px;
+}
+
+#skills h4 {
+  font-family: 'Bellefair', serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#skills p {
+  font-family: 'Bellefair', serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+img.icon {
+  margin-left: 80px;
+}
+
+/* Work */
+
+#work h2 {
+  background-color: #629b6b;
+  clear: both;
+  text-decoration: overline;
+  width: 1160px;
+}
+
+#work .third-width {
+  height: 400px;
+  margin: 20px;
+  text-align: left;
+}
+
+/* Contact */
+
+#contact h2 {
+  text-align: left;
+  text-decoration: overline;
+}
+
+#contact {
+  background-color: #d9dbaa;
+  clear: both;
+  font-size: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+}
