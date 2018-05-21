@@ -72,13 +72,15 @@ header p {
 
 /*Header for Inspo Page*/
 
-.inspiration {
+.inspiration,p{
   background-color: #d4c685;
   color: #581845;
   display: block;
-  padding: 15px;
+  font-family: 'Bellefair', serif;
+  font-size: 23px;
+  padding: 10px;
   text-align: center;
-  width: 100%;
+  width: 1240px;
 }
 
 /*Masonry On Inspo Page*/
@@ -89,6 +91,7 @@ header p {
 }
 
 .item { /*Masonry bricks or child elements*/
+align-content: center;
   background-color: #eee;
   display: inline-block;
   margin: 0 0 1em;
