@@ -8,6 +8,17 @@ header, #work {
   height: 550px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 1px;
+}
+
 #about #skills {
   height: 700px;
 }
@@ -35,6 +46,7 @@ header, #work {
 .full-width header {
   background-color: #d4c685;
   color: red;
+  display: block;
   padding: 40px;
 }
 
@@ -56,6 +68,17 @@ header a {
 header p {
   font-size: 35px;
   padding-top: 50px;
+}
+
+/*Header for Inspo Page*/
+
+.inspiration {
+  background-color: #d4c685;
+  color: #581845;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
 }
 
 /* All h2 headings */
