@@ -81,6 +81,20 @@ header p {
   width: 100%;
 }
 
+/*Masonry On Inspo Page*/
+
+.masonry { /*Masonry container*/
+  column-count: 4;
+  column-gap: 1em;
+}
+
+.item { /*Masonry bricks or child elements*/
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
 /* All h2 headings */
 
 h2 {
