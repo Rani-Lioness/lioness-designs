@@ -68,6 +68,136 @@ header a {
 header p {
   font-size: 35px;
   padding-top: 50px;
+  width: 100%;
+}
+
+
+/* All h2 headings */
+
+h2 {
+  font-family: 'Macondo', 'cursive';
+  font-size: 40px;
+  padding: 20px;
+  text-decoration: overline;
+  width: 100px;
+}
+
+/* About */
+
+#about h2{
+  background-color: #d9dbaa;
+  font-family: 'Macondo', 'cursive';
+  font-size: 40px;
+  text-decoration: overline;
+  width: 1160px;
+}
+
+#about .half-width p {
+  float: left;
+  font-size: 25px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  width: 80%;
+}
+
+#about .half-width img {
+  float: right;
+  height: 60%;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-bottom: 160px;
+  width: 60%;
+}
+
+/* Skills */
+
+#skills .third-width {
+  align-items: center;
+  background-color: #d4c685;
+  border: 2px dashed #283c2c;
+  height: 500px;
+  margin: 18px;
+  text-align: left;
+  width: 360px;
+}
+
+#skills h2 {
+  background-color: #d4c685;
+  clear: both;
+  font-family: 'Macondo', 'cursive';
+  font-size: 40px;
+  text-decoration: overline;
+  width: 1160px;
+}
+
+#skills h4 {
+  font-family: 'Bellefair', serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#skills p {
+  font-family: 'Bellefair', serif;
+  font-size: 15px;
+  text-align: justify;
+  width: 300px;
+}
+
+img.icon {
+  margin-left: 90px;
+}
+
+img.brackets {
+  padding-left: 90px;
+}
+
+/* Work */
+
+#work h2 {
+  background-color: #629b6b;
+  clear: both;
+  font-family: 'Macondo', 'cursive';
+  font-size: 40px;
+  text-decoration: overline;
+  width: 1160px;
+}
+
+#work .third-width {
+  height: 400px;
+  margin: 20px;
+  text-align: left;
+  width: 360px;
+}
+
+#work p {
+  font-family: 'Bellefair', serif;
+  font-size: 15px;
+  text-align: justify;
+  width: 360px;
+}
+
+/* Contact */
+
+#contact h2 {
+  font-family: 'Macondo', 'cursive';
+  font-size: 40px;
+  text-align: left;
+  text-decoration: overline;
+  width: 1160px;
+}
+
+#contact {
+  background-color: #d9dbaa;
+  clear: both;
+  font-size: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#contact .half-width p {
+  background-color: #d9dbaa;
+  width: 580px;
 }
 
 /*Header for Inspo Page*/
@@ -96,97 +226,4 @@ align-content: center;
   display: inline-block;
   margin: 0 0 1em;
   width: 100%;
-}
-
-/* All h2 headings */
-
-h2 {
-  font-family: 'Macondo', 'cursive';
-  font-size: 40px;
-  padding: 20px;
-  text-decoration: overline;
-  width: 1200px;
-}
-
-/* About */
-
-#about {
-  background-color: #d9dbaa;
-  overflow: hidden;
-}
-
-#about .half-width p {
-  float: left;
-  font-size: 25px;
-  padding-left: 20px;
-}
-
-#about .half-width img {
-  float: right;
-  height: 60%;
-  margin-right: 100px;
-  margin-bottom: 160px;
-  width: 60%;
-}
-
-/* Skills */
-
-#skills .third-width {
-  background-color: #d4c685;
-  border: 2px dashed #283c2c;
-  height: 500px;
-  margin: 18px;
-  text-align: left;
-}
-
-#skills h2 {
-  background-color: #d4c685;
-  text-decoration: overline;
-  width: 1160px;
-}
-
-#skills h4 {
-  font-family: 'Bellefair', serif;
-  font-size: 30px;
-  text-align: center;
-}
-
-#skills p {
-  font-family: 'Bellefair', serif;
-  font-size: 15px;
-  text-align: center;
-}
-
-img.icon {
-  margin-left: 80px;
-}
-
-/* Work */
-
-#work h2 {
-  background-color: #629b6b;
-  clear: both;
-  text-decoration: overline;
-  width: 1160px;
-}
-
-#work .third-width {
-  height: 400px;
-  margin: 20px;
-  text-align: left;
-}
-
-/* Contact */
-
-#contact h2 {
-  text-align: left;
-  text-decoration: overline;
-}
-
-#contact {
-  background-color: #d9dbaa;
-  clear: both;
-  font-size: 30px;
-  padding-bottom: 15px;
-  text-align: center;
 }
